@@ -1,52 +1,72 @@
 @import './variables';
 
-@mixin section2{
-    padding-top: 3vh;
-    width: 80%;
-    margin: auto;
+@mixin section2 {
+    padding-top: 6vh;
     display: flex;
-
-    .design{
-        width: 25%;
+    flex-direction: column;
+    align-items: center;
+    .threeBoxes {
+        width: 85%;
         margin: auto;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
 
-        img{
-            width: 10%;
-            height: 4vh;
+        h2{
+            color: $secondaryColor;
+        }
+        
+        .design {
+            width: 30%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 8%;
+                height: 4vh;
+            }
+
+            p {
+                width: 90%;
+            }
         }
 
-        p{
-            width: 90%;
+        .coding {
+            width: 20%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 12%;
+                height: 4vh;
+            }
+        }
+
+        .apps {
+            width: 30%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 8%;
+                height: 4vh;
+            }
+
+            p {
+                width: 80%;
+            }
         }
     }
 
-    .coding{
-        width: 25%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-
-        img{
-            width: 10%;
-            height: 4vh;
-        }
-    }
-
-    .apps{
-        width: 25%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-
-        img{
-            width: 10%;
-            height: 4vh;
-        }
-
-        p{
-            width: 80%;
-        }
+    button {
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+        width: 10%;
+        background-color: $contentColor;
+        border-radius: 10px;
+        border-color: $secondaryColor;
+        border-style: solid;
     }
 }

@@ -69,48 +69,66 @@ body .section1 {
   background-color: #FFDA00;
 }
 body .section1 p {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 body .section2 {
-  padding-top: 3vh;
-  width: 80%;
+  padding-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .section2 .threeBoxes {
+  width: 85%;
   margin: auto;
   display: flex;
+  justify-content: space-between;
 }
-body .section2 .design {
-  width: 25%;
+body .section2 .threeBoxes h2 {
+  color: #FFDA00;
+}
+body .section2 .threeBoxes .design {
+  width: 30%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-body .section2 .design img {
-  width: 10%;
+body .section2 .threeBoxes .design img {
+  width: 8%;
   height: 4vh;
 }
-body .section2 .design p {
+body .section2 .threeBoxes .design p {
   width: 90%;
 }
-body .section2 .coding {
-  width: 25%;
+body .section2 .threeBoxes .coding {
+  width: 20%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-body .section2 .coding img {
-  width: 10%;
+body .section2 .threeBoxes .coding img {
+  width: 12%;
   height: 4vh;
 }
-body .section2 .apps {
-  width: 25%;
+body .section2 .threeBoxes .apps {
+  width: 30%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-body .section2 .apps img {
-  width: 10%;
+body .section2 .threeBoxes .apps img {
+  width: 8%;
   height: 4vh;
 }
-body .section2 .apps p {
+body .section2 .threeBoxes .apps p {
   width: 80%;
+}
+body .section2 button {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  width: 10%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border-color: #FFDA00;
+  border-style: solid;
 }/*# sourceMappingURL=style.css.map */
