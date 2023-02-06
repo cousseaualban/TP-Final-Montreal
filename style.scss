@@ -1,0 +1,10 @@
+@import './sass/variables';
+@import './sass/header';
+
+body{
+    margin: 0%;
+    top: 0%;
+    header{
+        @include header;
+    }
+}

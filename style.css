@@ -1,1 +1,63 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0%;
+  top: 0%;
+}
+body header {
+  background-color: #17191E;
+}
+body header nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+body header nav .topnav {
+  padding-top: 2vh;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+body header nav .topnav #myLinks {
+  width: 30%;
+  margin: auto;
+  display: none;
+}
+body header nav .topnav #myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body header nav .topnav .icon {
+  height: 3vh;
+  width: 4%;
+  margin-top: 2vh;
+  background: #FFDA00;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body header nav .title {
+  padding-top: 20vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+body header nav .title h1 {
+  color: #FFDA00;
+  font-size: 6em;
+}
+body header nav .title p {
+  color: #FFFFFF;
+}
+body header nav .title button {
+  margin-bottom: 5vh;
+  width: 25%;
+  background-color: #17191E;
+  border-radius: 10px;
+  border-color: #FFDA00;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

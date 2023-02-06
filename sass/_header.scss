@@ -1,0 +1,70 @@
+@import './variables';
+
+@mixin header {
+    background-color: $primaryColor;
+
+    nav {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        .topnav {
+            padding-top: 2vh;
+            width: 90%;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+
+            #myLinks {
+                width: 30%;
+                margin: auto;
+                display: none;
+
+                a {
+                    color: white;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+            }
+
+            .icon {
+                height: 3vh;
+                width: 4%;
+                margin-top: 2vh;
+                background: $secondaryColor;
+                color: $contentColor;
+                display: block;
+                text-align: center;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+
+        .title {
+            padding-top: 20vh;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                color: $secondaryColor;
+                font-size: 6em;
+            }
+
+            p {
+                color: $contentColor;
+            }
+
+            button {
+                margin-bottom: 5vh;
+                width: 25%;
+                background-color: $primaryColor;
+                border-radius: 10px;
+                border-color: $secondaryColor;
+                color: $contentColor;
+            }
+        }
+    }
+}
