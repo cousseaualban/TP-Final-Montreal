@@ -1,0 +1,52 @@
+@import './variables';
+
+@mixin section2{
+    padding-top: 3vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+    .design{
+        width: 25%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 10%;
+            height: 4vh;
+        }
+
+        p{
+            width: 90%;
+        }
+    }
+
+    .coding{
+        width: 25%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 10%;
+            height: 4vh;
+        }
+    }
+
+    .apps{
+        width: 25%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 10%;
+            height: 4vh;
+        }
+
+        p{
+            width: 80%;
+        }
+    }
+}

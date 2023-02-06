@@ -1,0 +1,12 @@
+@import './variables';
+
+@mixin section1{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: $secondaryColor;
+
+    p{
+        width: 80%;
+        margin: auto;
+    }
+}

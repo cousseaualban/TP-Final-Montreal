@@ -1,4 +1,5 @@
 body {
+  font-family: "Abel", sans-serif;
   margin: 0%;
   top: 0%;
 }
@@ -27,6 +28,7 @@ body header nav .topnav #myLinks a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1.25em;
 }
 body header nav .topnav .icon {
   height: 3vh;
@@ -41,14 +43,14 @@ body header nav .topnav .icon {
   top: 0;
 }
 body header nav .title {
-  padding-top: 20vh;
+  padding-top: 15vh;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 body header nav .title h1 {
   color: #FFDA00;
-  font-size: 6em;
+  font-size: 8em;
 }
 body header nav .title p {
   color: #FFFFFF;
@@ -60,4 +62,55 @@ body header nav .title button {
   border-radius: 10px;
   border-color: #FFDA00;
   color: #FFFFFF;
+}
+body .section1 {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: #FFDA00;
+}
+body .section1 p {
+  width: 80%;
+  margin: auto;
+}
+body .section2 {
+  padding-top: 3vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+body .section2 .design {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+body .section2 .design img {
+  width: 10%;
+  height: 4vh;
+}
+body .section2 .design p {
+  width: 90%;
+}
+body .section2 .coding {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+body .section2 .coding img {
+  width: 10%;
+  height: 4vh;
+}
+body .section2 .apps {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+body .section2 .apps img {
+  width: 10%;
+  height: 4vh;
+}
+body .section2 .apps p {
+  width: 80%;
 }/*# sourceMappingURL=style.css.map */

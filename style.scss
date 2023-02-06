@@ -1,10 +1,22 @@
 @import './sass/variables';
 @import './sass/header';
+@import './sass/section1';
+@import './sass/section2';
+
 
 body{
+    font-family: 'Abel', sans-serif;
     margin: 0%;
     top: 0%;
     header{
         @include header;
+    }
+
+    .section1{
+        @include section1;
+    }
+
+    .section2{
+        @include section2;
     }
 }
