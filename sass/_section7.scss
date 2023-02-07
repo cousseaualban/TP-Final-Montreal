@@ -12,25 +12,17 @@
         justify-content: space-between;
 
         img{
+            width: 15%;
             height: 5vh;
         }
 
-        .whats{
+        #details{
             width: 25%;
             display: flex;
-        }
-
-        .mail{
-            width: 25%;
-            display: flex;
-        }
-
-        .globe{
-            width: 25%;
-            display: flex;
-
             p{
-                width: 40%;
+                padding-top: 1vh;
+                width: 60%;
+                text-align: center;
             }
         }
     }

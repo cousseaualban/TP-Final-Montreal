@@ -85,7 +85,7 @@ body .section2 .threeBoxes {
   width: 85%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 body .section2 .threeBoxes h2 {
   color: #FFDA00;
@@ -154,16 +154,7 @@ body .section3 #allSkills p {
 body .section3 #allSkills h2 {
   padding-top: 2vh;
 }
-body .section3 #allSkills .projects {
-  width: 20%;
-}
-body .section3 #allSkills .coffee {
-  width: 20%;
-}
-body .section3 #allSkills .mail {
-  width: 20%;
-}
-body .section3 #allSkills .awards {
+body .section3 #allSkills #skill {
   width: 20%;
 }
 body .section4 {
@@ -258,22 +249,17 @@ body .section7 .contactDetails {
   justify-content: space-between;
 }
 body .section7 .contactDetails img {
+  width: 15%;
   height: 5vh;
 }
-body .section7 .contactDetails .whats {
+body .section7 .contactDetails #details {
   width: 25%;
   display: flex;
 }
-body .section7 .contactDetails .mail {
-  width: 25%;
-  display: flex;
-}
-body .section7 .contactDetails .globe {
-  width: 25%;
-  display: flex;
-}
-body .section7 .contactDetails .globe p {
-  width: 40%;
+body .section7 .contactDetails #details p {
+  padding-top: 1vh;
+  width: 60%;
+  text-align: center;
 }
 body .footer {
   padding-top: 8vh;
