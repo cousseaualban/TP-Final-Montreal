@@ -44,6 +44,7 @@ body header nav .topnav .icon {
 }
 body header nav .topnav .icon:hover {
   background-color: #FFFFFF;
+  color: #17191E;
 }
 body header nav .title {
   padding-top: 15vh;
