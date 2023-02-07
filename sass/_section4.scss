@@ -1,0 +1,24 @@
+@import './variables';
+
+@mixin section4{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    .works{
+        width: 80%;
+        margin: auto;
+
+        h3{
+            color: $secondaryColor;
+            padding-bottom: 3vh;
+        }
+        
+        p{
+            width: 50%;
+        }
+    }
+
+    .pictures{
+        display: flex;
+    }
+}

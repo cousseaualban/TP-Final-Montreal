@@ -2,6 +2,7 @@
 @import './sass/header';
 @import './sass/section1';
 @import './sass/section2';
+@import './sass/section4';
 
 
 body{
@@ -18,5 +19,9 @@ body{
 
     .section2{
         @include section2;
+    }
+
+    .section4{
+        @include section4;
     }
 }

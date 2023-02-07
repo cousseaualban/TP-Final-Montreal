@@ -131,4 +131,22 @@ body .section2 button {
   border-radius: 10px;
   border-color: #FFDA00;
   border-style: solid;
+}
+body .section4 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+body .section4 .works {
+  width: 80%;
+  margin: auto;
+}
+body .section4 .works h3 {
+  color: #FFDA00;
+  padding-bottom: 3vh;
+}
+body .section4 .works p {
+  width: 50%;
+}
+body .section4 .pictures {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
