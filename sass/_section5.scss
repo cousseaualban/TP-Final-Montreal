@@ -1,28 +1,43 @@
 @import './variables';
 
-@mixin section5{
+@mixin section5 {
     background-color: $primaryColor;
     padding-top: 5vh;
     padding-bottom: 5vh;
 
-    .customers{
+    .customers {
         width: 80%;
         margin: auto;
 
-        h2{
+        // Responsive tablette 
+        @media (max-width: 992px) {
+            width: 90%;
+        }
+
+        h2 {
             color: $secondaryColor;
         }
 
-        p{
+        p {
             width: 40%;
             color: $contentColor;
+
+            // Responsive tablette 
+            @media (max-width: 992px) {
+                width: 60%;
+            }
         }
     }
 
-    .brands{
+    .brands {
         width: 70%;
         margin: auto;
         display: flex;
         justify-content: space-between;
+
+        // Responsive tablette 
+        @media (max-width: 992px) {
+            width: 80%;
+        }
     }
 }

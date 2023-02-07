@@ -260,6 +260,11 @@ body .section5 .customers {
   width: 80%;
   margin: auto;
 }
+@media (max-width: 992px) {
+  body .section5 .customers {
+    width: 90%;
+  }
+}
 body .section5 .customers h2 {
   color: #FFDA00;
 }
@@ -267,11 +272,21 @@ body .section5 .customers p {
   width: 40%;
   color: #FFFFFF;
 }
+@media (max-width: 992px) {
+  body .section5 .customers p {
+    width: 60%;
+  }
+}
 body .section5 .brands {
   width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 992px) {
+  body .section5 .brands {
+    width: 80%;
+  }
 }
 body .section6 {
   padding-top: 5vh;
@@ -332,6 +347,11 @@ body .section7 .contactDetails #details {
   width: 20%;
   display: flex;
 }
+@media (max-width: 992px) {
+  body .section7 .contactDetails #details {
+    width: 30%;
+  }
+}
 body .section7 .contactDetails #details p {
   padding-top: 1vh;
   width: 70%;
@@ -353,4 +373,9 @@ body .footer .socialNetworks {
   width: 8%;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 992px) {
+  body .footer .socialNetworks {
+    width: 14%;
+  }
 }/*# sourceMappingURL=style.css.map */

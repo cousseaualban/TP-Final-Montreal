@@ -1,9 +1,9 @@
 @import './variables';
 
-@mixin section7{
+@mixin section7 {
     background-color: $secondaryColor;
 
-    .contactDetails{
+    .contactDetails {
         padding-top: 8vh;
         padding-bottom: 8vh;
         width: 70%;
@@ -11,15 +11,21 @@
         display: flex;
         justify-content: space-between;
 
-        img{
+        img {
             width: 20%;
             height: 5vh;
         }
 
-        #details{
+        #details {
             width: 20%;
             display: flex;
-            p{
+
+            // Responsive tablette 
+            @media (max-width: 992px) {
+                width: 30%;
+            }
+
+            p {
                 padding-top: 1vh;
                 width: 70%;
                 text-align: center;
