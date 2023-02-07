@@ -93,7 +93,7 @@ body .section2 {
   align-items: center;
 }
 body .section2 .threeBoxes {
-  width: 85%;
+  width: 82%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -130,6 +130,7 @@ body .section2 .threeBoxes .design p {
   }
 }
 body .section2 .threeBoxes .coding {
+  padding-bottom: 2vh;
   width: 30%;
   margin: auto;
   display: flex;
@@ -141,7 +142,7 @@ body .section2 .threeBoxes .coding {
   }
 }
 body .section2 .threeBoxes .coding img {
-  width: 12%;
+  width: 8%;
   height: 4vh;
 }
 @media (max-width: 992px) {

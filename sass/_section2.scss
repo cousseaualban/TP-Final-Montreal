@@ -7,7 +7,7 @@
     align-items: center;
 
     .threeBoxes {
-        width: 85%;
+        width: 82%;
         margin: auto;
         display: flex;
         justify-content: space-around;
@@ -48,6 +48,7 @@
         }
 
         .coding {
+            padding-bottom: 2vh;
             width: 30%;
             margin: auto;
             display: flex;
@@ -59,7 +60,7 @@
             }
 
             img {
-                width: 12%;
+                width: 8%;
                 height: 4vh;
 
                 // Responsive tablette 
