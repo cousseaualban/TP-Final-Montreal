@@ -5,6 +5,8 @@
 @import './sass/section4';
 @import './sass/section5';
 @import './sass/section6';
+@import './sass/section7';
+@import './sass/footer';
 
 
 body{
@@ -33,5 +35,13 @@ body{
 
     .section6{
         @include section6;
+    }
+
+    .section7{
+        @include section7;
+    }
+
+    .footer{
+        @include footer;
     }
 }

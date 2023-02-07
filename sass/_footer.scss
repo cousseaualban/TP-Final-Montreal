@@ -1,0 +1,8 @@
+@import './variables';
+
+@mixin footer{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    background-color: $primaryColor;
+    color: $contentColor;
+}
