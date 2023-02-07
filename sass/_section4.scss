@@ -1,24 +1,41 @@
 @import './variables';
 
-@mixin section4{
+@mixin section4 {
     padding-top: 5vh;
     padding-bottom: 5vh;
 
-    .works{
+    .works {
         width: 80%;
         margin: auto;
 
-        h3{
+        // Responsive tablette 
+        @media (max-width: 992px) {
+            width: 90%;
+        }
+
+        h3 {
             color: $secondaryColor;
             padding-bottom: 3vh;
         }
-        
-        p{
+
+        p {
             width: 50%;
+
+            // Responsive tablette 
+            @media (max-width: 992px) {
+                width: 70%;
+            }
         }
     }
 
-    .pictures{
+    .pictures {
+        width: 80%;
+        margin: auto;
         display: flex;
+
+        // Responsive tablette 
+        @media (max-width: 992px) {
+            width: 100%;
+        }
     }
 }
