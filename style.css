@@ -171,4 +171,43 @@ body .section5 .brands {
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+body .section6 {
+  padding-top: 5vh;
+}
+body .section6 .contact {
+  padding-bottom: 4vh;
+  width: 80%;
+  margin: auto;
+}
+body .section6 .contact h2 {
+  color: #FFDA00;
+}
+body .section6 .contentContact {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #F2F2F2;
+  width: 80%;
+  margin: auto;
+}
+body .section6 .contentContact p {
+  width: 80%;
+  margin: auto;
+}
+body .section6 .contentContact .form-control {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3vh;
+  border-color: #FFDA00;
+}
+body .section6 .contentContact .message .form-control {
+  height: 20vh;
+}
+body .section6 .contentContact .send {
+  width: 80%;
+  margin: auto;
+}
+body .section6 .contentContact .send button {
+  background-color: #FFDA00;
+  border-color: #FFDA00;
 }/*# sourceMappingURL=style.css.map */

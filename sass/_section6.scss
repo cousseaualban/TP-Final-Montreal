@@ -1,0 +1,48 @@
+@import './variables';
+
+@mixin section6{
+    padding-top: 5vh;
+
+    .contact{
+        padding-bottom: 4vh;
+        width: 80%;
+        margin: auto;
+
+        h2{
+            color: $secondaryColor;
+        }
+    }
+
+    .contentContact{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color: #F2F2F2;
+        width: 80%;
+        margin: auto;
+
+        p{
+            width: 80%;
+            margin: auto;
+        }
+        .form-control{
+            width: 80%;
+            margin: auto;
+            margin-bottom: 3vh;
+            border-color: $secondaryColor;
+        }
+        .message{
+            .form-control{
+                height: 20vh;
+            }
+        }
+        .send{
+            width: 80%;
+            margin: auto;
+
+            button{
+                background-color: $secondaryColor;
+                border-color: $secondaryColor;
+            }
+        }
+    }
+}
