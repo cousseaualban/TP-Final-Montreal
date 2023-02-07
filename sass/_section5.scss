@@ -1,0 +1,28 @@
+@import './variables';
+
+@mixin section5{
+    background-color: $primaryColor;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    .customers{
+        width: 80%;
+        margin: auto;
+
+        h2{
+            color: $secondaryColor;
+        }
+
+        p{
+            width: 40%;
+            color: $contentColor;
+        }
+    }
+
+    .brands{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}

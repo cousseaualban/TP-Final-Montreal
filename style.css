@@ -149,4 +149,26 @@ body .section4 .works p {
 }
 body .section4 .pictures {
   display: flex;
+}
+body .section5 {
+  background-color: #17191E;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+body .section5 .customers {
+  width: 80%;
+  margin: auto;
+}
+body .section5 .customers h2 {
+  color: #FFDA00;
+}
+body .section5 .customers p {
+  width: 40%;
+  color: #FFFFFF;
+}
+body .section5 .brands {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
