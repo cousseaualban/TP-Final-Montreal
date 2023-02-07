@@ -138,6 +138,7 @@ body .section2 button {
 body .section3 {
   background-color: #17191E;
   color: #FFFFFF;
+  text-align: center;
 }
 body .section3 #allSkills {
   padding-top: 5vh;
@@ -146,7 +147,6 @@ body .section3 #allSkills {
   margin: auto;
   display: flex;
   justify-content: space-around;
-  text-align: center;
 }
 body .section3 #allSkills p {
   color: #FFDA00;
@@ -154,8 +154,16 @@ body .section3 #allSkills p {
 body .section3 #allSkills h2 {
   padding-top: 2vh;
 }
-body .section3 #allSkills #skill {
+body .section3 #allSkills .skill {
   width: 20%;
+}
+body .section3 #allSkills .skill img {
+  margin-bottom: 2vh;
+}
+body .section3 #allSkills .skill .number {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 2vh;
 }
 body .section4 {
   padding-top: 5vh;
@@ -243,22 +251,22 @@ body .section7 {
 body .section7 .contactDetails {
   padding-top: 8vh;
   padding-bottom: 8vh;
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 body .section7 .contactDetails img {
-  width: 15%;
+  width: 20%;
   height: 5vh;
 }
 body .section7 .contactDetails #details {
-  width: 25%;
+  width: 20%;
   display: flex;
 }
 body .section7 .contactDetails #details p {
   padding-top: 1vh;
-  width: 60%;
+  width: 70%;
   text-align: center;
 }
 body .footer {

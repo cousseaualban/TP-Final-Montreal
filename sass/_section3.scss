@@ -3,6 +3,7 @@
 @mixin section3 {
     background-color: $primaryColor;
     color: $contentColor;
+    text-align: center;
 
     #allSkills {
         padding-top: 5vh;
@@ -11,17 +12,28 @@
         margin: auto;
         display: flex;
         justify-content: space-around;
-        text-align: center;
 
-        p{
+        p {
             color: $secondaryColor;
         }
 
-        h2{
+        h2 {
             padding-top: 2vh;
         }
-        #skill {
+
+        .skill {
             width: 20%;
+
+            img{
+                margin-bottom: 2vh;
+            }
+
+            .number {
+                font-size: 3em;
+                font-weight: bold;
+                margin-bottom: 2vh;
+
+            }
 
         }
     }
