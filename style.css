@@ -139,7 +139,7 @@ body .section3 {
   background-color: #17191E;
   color: #FFFFFF;
 }
-body .section3 .allSkills {
+body .section3 #allSkills {
   padding-top: 5vh;
   padding-bottom: 5vh;
   width: 80%;
@@ -148,16 +148,22 @@ body .section3 .allSkills {
   justify-content: space-around;
   text-align: center;
 }
-body .section3 .allSkills .projects {
+body .section3 #allSkills p {
+  color: #FFDA00;
+}
+body .section3 #allSkills h2 {
+  padding-top: 2vh;
+}
+body .section3 #allSkills .projects {
   width: 20%;
 }
-body .section3 .allSkills .coffee {
+body .section3 #allSkills .coffee {
   width: 20%;
 }
-body .section3 .allSkills .mail {
+body .section3 #allSkills .mail {
   width: 20%;
 }
-body .section3 .allSkills .awards {
+body .section3 #allSkills .awards {
   width: 20%;
 }
 body .section4 {

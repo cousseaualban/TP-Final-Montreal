@@ -4,7 +4,7 @@
     background-color: $primaryColor;
     color: $contentColor;
 
-    .allSkills {
+    #allSkills {
         padding-top: 5vh;
         padding-bottom: 5vh;
         width: 80%;
@@ -13,8 +13,16 @@
         justify-content: space-around;
         text-align: center;
 
+        p{
+            color: $secondaryColor;
+        }
+
+        h2{
+            padding-top: 2vh;
+        }
         .projects {
             width: 20%;
+
         }
 
         .coffee {
