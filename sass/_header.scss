@@ -41,6 +41,10 @@
                 right: 0;
                 top: 0;
             }
+
+            .icon:hover{
+                background-color: $contentColor;
+            }
         }
 
         .title {

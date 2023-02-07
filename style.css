@@ -42,6 +42,9 @@ body header nav .topnav .icon {
   right: 0;
   top: 0;
 }
+body header nav .topnav .icon:hover {
+  background-color: #FFFFFF;
+}
 body header nav .title {
   padding-top: 15vh;
   width: 50%;
@@ -131,6 +134,31 @@ body .section2 button {
   border-radius: 10px;
   border-color: #FFDA00;
   border-style: solid;
+}
+body .section3 {
+  background-color: #17191E;
+  color: #FFFFFF;
+}
+body .section3 .allSkills {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+body .section3 .allSkills .projects {
+  width: 20%;
+}
+body .section3 .allSkills .coffee {
+  width: 20%;
+}
+body .section3 .allSkills .mail {
+  width: 20%;
+}
+body .section3 .allSkills .awards {
+  width: 20%;
 }
 body .section4 {
   padding-top: 5vh;
@@ -229,17 +257,14 @@ body .section7 .contactDetails img {
 body .section7 .contactDetails .whats {
   width: 25%;
   display: flex;
-  align-items: center;
 }
 body .section7 .contactDetails .mail {
   width: 25%;
   display: flex;
-  align-items: center;
 }
 body .section7 .contactDetails .globe {
   width: 25%;
   display: flex;
-  align-items: center;
 }
 body .section7 .contactDetails .globe p {
   width: 40%;
@@ -249,4 +274,15 @@ body .footer {
   padding-bottom: 8vh;
   background-color: #17191E;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .footer p {
+  text-align: center;
+}
+body .footer .socialNetworks {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

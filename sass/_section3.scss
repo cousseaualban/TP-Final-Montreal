@@ -1,0 +1,32 @@
+@import './variables';
+
+@mixin section3{
+    background-color: $primaryColor;
+    color: $contentColor;
+
+    .allSkills{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+
+        .projects{
+            width: 20%;
+        }
+
+        .coffee{
+            width: 20%;
+        }
+
+        .mail{
+            width: 20%;
+        }
+
+        .awards{
+            width: 20%;
+        }
+    }
+}
