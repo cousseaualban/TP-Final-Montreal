@@ -1,10 +1,10 @@
 @import './variables';
 
-@mixin section3{
+@mixin section3 {
     background-color: $primaryColor;
     color: $contentColor;
 
-    .allSkills{
+    .allSkills {
         padding-top: 5vh;
         padding-bottom: 5vh;
         width: 80%;
@@ -13,19 +13,19 @@
         justify-content: space-around;
         text-align: center;
 
-        .projects{
+        .projects {
             width: 20%;
         }
 
-        .coffee{
+        .coffee {
             width: 20%;
         }
 
-        .mail{
+        .mail {
             width: 20%;
         }
 
-        .awards{
+        .awards {
             width: 20%;
         }
     }
